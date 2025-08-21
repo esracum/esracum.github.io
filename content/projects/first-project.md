@@ -28,7 +28,7 @@ ShowCodeCopyButtons: true
 ---
 
 ## Giriş 
-## Proje Konusu :
+## Proje Konusu 
  Böbrek tümörü ameliyatlarında, ameliyat zorluğunu belirleyen MAP (Mayo Adhesive Probability) skorunu hızlı ve doğru şekilde elde etmek amacıyla böbrek çevresindeki perinefrik yağ dokusunun kalınlığı ve stranding (yapışık yağ dokusu yoğunluğu) parametreleri otomatik olarak hesaplanmıştır.
 
 ## Proje Detayları 
