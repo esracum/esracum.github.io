@@ -14,11 +14,18 @@
     <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>GitHub Pages ve HUGO Kullanarak Ücretsiz Kişisel Blog Oluşturma</title>
+      <title>Derin Öğrenme ile Perinefrik Yağ Kalınlığından MAP Skoru Hesaplama</title>
       <link>http://localhost:1313/projects/first-project/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/first-project/</guid>
-      <description>GitHub Pages ve HUGO kullanarak, ücretsiz bir şekilde kendi kişisel blogunuzu oluşturabilirsiniz.</description>
+      <description>Bu proje, lisans bitirme projesi kapsamında Ondokuz Mayıs Üniversitesi Dr. Öğr. Üyesi Oğuz Emre Kural ve üroloji alanında rehberlik eden Dr. Emre Fatih Karadeli ile birlikte geliştirilmiştir. </description>
+    </item>
+    <item>
+      <title>TEKNOFEST VTOL İHA Projesinde OpenCV Haar Cascade Yöntemiyle Orman Yangını Tespiti</title>
+      <link>http://localhost:1313/projects/second-project/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/second-project/</guid>
+      <description>ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık.</description>
     </item>
   </channel>
 </rss>

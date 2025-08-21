@@ -7,7 +7,7 @@ tags: ["GitHub Pages","HUGO"]
 categories: ["Open-Source"]
 author: "Esra Cüm"
 cover:
-    image: "\\images\\vtol-proje.jpg" # resmin yolu
+    image: "https://private-user-images.githubusercontent.com/91957149/480462588-c1204dc7-50e1-463b-984d-36df922be288.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU3OTY1NjQsIm5iZiI6MTc1NTc5NjI2NCwicGF0aCI6Ii85MTk1NzE0OS80ODA0NjI1ODgtYzEyMDRkYzctNTBlMS00NjNiLTk4NGQtMzZkZjkyMmJlMjg4LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODIxVDE3MTEwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTliMWFiZjZkYzhhMmUzZjBkZmRhODljZDgzZDE3YzJmYjIxMGJhNTg2MzMyMmJlMDMxODZjNmI5Y2UxYjYwZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zuLiN_gq3iBiwtNehgu-JHcEAflcrsfh9sTjclwgpuQ" # resmin yolu
     alt: "VTOL İHA Projesi"
     caption: "TEKNOFEST VTOL İHA Projesi"
     relative: true
