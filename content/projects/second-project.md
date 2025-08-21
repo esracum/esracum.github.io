@@ -6,7 +6,12 @@ date: 2024-05-19
 tags: ["GitHub Pages","HUGO"]
 categories: ["Open-Source"]
 author: "Esra Cüm"
-# author: ["Me", "You"] # multiple authors
+cover:
+    image: "\\images\\vtol-proje.jpg" # resmin yolu
+    alt: "VTOL İHA Projesi"
+    caption: "TEKNOFEST VTOL İHA Projesi"
+    relative: true
+
 showToc: true
 TocOpen: false
 draft: false
