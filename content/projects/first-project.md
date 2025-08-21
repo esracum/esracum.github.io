@@ -1,5 +1,5 @@
 ---
-title: "GitHub Pages ve HUGO Kullanarak Ücretsiz Kişisel Blog Oluşturma"
+title: "Derin Öğrenme ile Perinefrik Yağ Kalınlığından MAP Skoru Hesaplama"
 date: 2024-11-30
 # weight: 1
 # aliases: ["/first"]
@@ -12,7 +12,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "GitHub Pages ve HUGO kullanarak, ücretsiz bir şekilde kendi kişisel blogunuzu oluşturabilirsiniz."
+description: "Bu proje, lisans bitirme projesi kapsamında Ondokuz Mayıs Üniversitesi Dr. Öğr. Üyesi Oğuz Emre Kural ve üroloji alanında rehberlik eden Dr. Emre Fatih Karadeli ile birlikte geliştirilmiştir. "
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -28,35 +28,26 @@ ShowCodeCopyButtons: true
 ---
 
 ## Giriş 
-İnternet üzerinde kendinizi göstermenin en güzeli kişisel bir blog sayfası oluşturmak olabilir. Aslında bunu yapmak için günümüzde popüler sosyal medya platformları ağırlıklı olarak kullanılıyor. Ancak benim gibi yazarak kendini ifade etmek isteyen, yazma becerilerini geliştirmek isteyen kişiler için **blog** halen en iyi seçenek gibi duruyor.
+## Proje Konusu :
+ Böbrek tümörü ameliyatlarında, ameliyat zorluğunu belirleyen MAP (Mayo Adhesive Probability) skorunu hızlı ve doğru şekilde elde etmek amacıyla böbrek çevresindeki perinefrik yağ dokusunun kalınlığı ve stranding (yapışık yağ dokusu yoğunluğu) parametreleri otomatik olarak hesaplanmıştır.
 
-Blog yazmanın birçok farklı yöntemi var. Gerek ücretli, gerekse de ücretsiz olarak size en uygun seçeneği belirleyerek bir blog sayfası oluşturabilir ve yazmaya hemen başlayabilirsiniz. Bu yazımda ve video içeriğimde bizler GitHub Pages ve HUGO altyapısını kullanarak kişisel bir blog sayfası oluşturacağız.
-##  Github Pages ve Hugo Kullanarak Ücretsiz Kişisel Blog Oluşturma - YouTube
-{{< youtube O-Kxwi9PMV8 >}}
+## Proje Detayları 
+Proje kapsamında, BT (Bilgisayarlı Tomografi ) görüntüleri üzerinde derin öğrenme ve görüntü işleme yöntemleri kullanılarak cerrahi planlama süreçlerini iyileştiren bir sistem geliştirilmiştir. Model eğitiminde kullanılan veri seti elle hazırlanmıştır. *Böbrek segmentasyonu* için *U-Net modeli* kullanılmıştır. Stranding (yapışık yağ dokusu yoğunluğu) eşiğinin belirlenmesinde ise görüntü kontrastını artırmak için *CLAHE* yöntemi uygulanmış ve stranding hesabında otomatik eşikleme için *Otsu*, *Yen*, *Triangle* ve *Mean* gibi farklı yöntemler kıyaslanmıştır. Perinefrik yağ uzunluğunun tespitinde Z-skora dayalı fonksiyonlar kullanılarak bölgesel yoğunluk analizleri gerçekleştirilmiştir.
 
-## GitHub Pages Nedir? 
-GitHub Pages, GitHub kullanıcılarının kendi kişisel blog, CV veya proje web sitelerini barındırmasına olanak sağlayan bir hizmettir. GitHub üzerinden oluşturulan bir *repository (depo)* ile HTML, CSS ve JavaScript dosyalarından oluşan statik web sayfalarınızı yayınlamanıza olanak tanır. Peki, GitHub Pages'in avantajları nelerdir? 
+## Elde Edilen Sonuçlar
+Yağ kalınlığı ölçümlerinde uzmanların elle yaptığı değerlendirmelerle *%89* oranında uyum sağlanırken stranding skorlamasında *%77* oranında örtüşme elde edilmiştir. 
 
-- **Statik Web Site Oluşturma:** GitHubPages, statik web site oluşturmanıza olanak tanır. Yani sunucu taraflı işlemeye ihtiyaç duymayacağınız sayfaları barındırabilirsiniz. *Elbette bazı JavaScript kodlarıyla dinamik içerikler eklenebilir.* Bu durumun avantajı, özellikle web sitelerinin oldukça hafif ve hızlı yapıda olmalarını sağlamasıdır. Ancak dezavantaj olarak, yönetim paneli gibi bir durum söz konusu olmadığından düzenleme, güncelleme işlerinin anlık bir şekilde yapılamaması sayılabilir. 
-- **Ücretsiz Barındırma Hizmeti:** GitHub Pages, kullanıcılarına ücretsiz bir şekilde web sitelerini barındırma hizmeti verir. Özellikle kişisel bloglar, portföyler, proje sayfaları vs. için oldukça ideal bir çözüm üretir. 
-- **Kolay Kullanabilirlik:** GitHub Pages hizmetinin kullanımı aslında oldukça kolaydır. GitHub üzerinden bir depo oluşturup, *Markdown* belgeleriyle bile sayfanızı internete açmak mümkündür. 
-- **Özelleştirilebilir Web Sayfaları:** Web sayfalarınızı yayınlamak için CSS ve JavaScript dosyaları kullanabiliyorsunuz. Bizim burada yaptığımız gibi **"Static Web Site Oluşturucu"** yazılımlarını kullanarak harika tema ve şablonlarla sayfalarınızı yayınlayabilirsiniz. 
-- **Alan Adı (Domain) Desteği:** GitHub Pages, sizlere ücretsiz bir şekilde kullanabileceğiniz sub domain desteği sunuyor. Örneğin; *"https://kullanaciadiniz.github.io/"* şeklinde veya *"https://kullaniciadiniz.github.io/depoismi/"* şeklinde bir alan adına sahip olabiliyorsunuz. Aynı zamanda ücretli bir şekilde satın aldığınız domain uzantılarını da GitHub Pages ile kullanarak web sayfalarınızı özel bir alan adıyla yayına alabiliyorsunuz. 
-### GitHub Pages Kullanım Limitleri Nedir? 
-GitHub Pages, sizlere ücretsiz bir hizmet sunuyor sunmasına da elbette bunun için bir kullanım sınırı da belirliyor. Ancak bu sınırlar gözünüzü çok kokurtmasın. Zira biz *statik web site oluşturucu* kullanacağımızdan bu sınırlar bize fazlasıyla yetecektir. Peki, bu limitler nelerdir? *Bknz. [GitHub Pages Kullanım Limitleri](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#usage-limits)*
-1. **Depo Alanı Sınırı:** GitHub, genel olarak depolarının toplam büyüklüğünün **1 GB**'dan fazla olmasına izin vermiyor. Bu da bizim web site boyutumuzun da bu sınırı aşmaması gerektiği anlamına geliyor. Eğer web sitenizde kullandığınız görsel, video vb. büyük boyutlu belgeleri deponuzda barındırmazsanız, HUGO altyapısında bu depolama alanı bize fazlasıyla yetecektir. Genel olarak HUGO'nın dosyaları ortalama **1-2 MB** arasında bir depolama alanı kaplıyor. Evet, şaşırtıcı olabilir ama durum gerçekten böyle! Peki, içeriklerimiz ne kadar alan kaplıyor? HUGO kullanırken içeriklerimizi *".md"* uzantısıyla yani *"Markdown"* kullanarak oluşturuyoruz. Blogunuzda yayınlamak için oluşturacağınız *1000 kelimelik* markdown belgesinin kaplayacağı alan ortalama **"10-15 KB** oluyor. Yani bu da demek oluyor ki; ortalama 1000 kelimelik yazacağınız **60 blog yazısı** toplamda sadece **1 MB** civarında bir yer kaplayacak.
+> ⚠️ Ölçümdeki sapmalar, farklı BT cihazları, tarama protokolleri ve görüntü format dönüşümlerinden kaynaklanmaktadır. Gelecekte, DICOM formatında daha fazla veri kullanılması, görüntülerin JPG yerine DICOM formatında işlenmesi gelişmiş model mimarileri (U-Net++, Attention U-Net gibi) ile segmentasyon doğruluğunun arttırılması planlanmaktadır. Geliştirilen sistem, cerrahi planlama sürecinde hızlı ve doğru karar verilmesini sağlayarak ameliyat başarısını artırmaya önemli katkılar sunmaktadır. 
 
-> ⚠️ Hem depolama alanı hem de bant genişliği konusunda önem arz eden bir durum var! Daha önce de belirttiğimiz gibi eğer fotoğraf, video, resim vb. görsel içerikleri deponuzda barındırırsanız bu kullanım değerleri oldukça yüksek boyutlara çıkacaktır. Bu da kullanım durumunuza göre GitHub Pages sınırlarına çok daha kolay bir şekilde ulaşmanız anlamına gelir! Yapmanız gereken; fotoğraf, resim vb. içerikler için herhangi bir resim barındıcırı hizmeti kullanabilir veya kendi resim sunucunuzu oluşturubilirsiniz. Video gibi içerikleriniz için *YouTube, Vimeo* gibi platformları tercih edebilirsiniz. 
 
-2. **Deployment ve Action Sınırları:** GitHub Pages üzerinde gerçekleştirdiğiniz işlemlerin deploy (dağıtım) süreleri **10** dakikayı aşmamalıdır. Yani tek seferde çok büyük bir dosya deploy ederseniz bu durum muhtemelen işlemin **zaman aşımına** uğraması anlamına gelecektir. Aynı zamanda yapacağınzı her değişiklik *"GitHub Actions"* iş akışı üzerinde bir veya birkaç işlem başlatacaktır. Saatlik olarak bu iş akışı liminitiniz ise **10** olarak sınırlandırılmıştır. 
 
-3. **Bant Genişliği Sınırı:** GitHub Pages hizmeti aylık ortalama **100 GB** bir bant genişliği sağlar. Bu limit daha önce de bahsettiğimiz şartlar altında, amaca uygun bir kullanım için oldukça yeterlidir. Kendi sayfalarım üzerinden baktığımda; sayfalarımın ortalama yüklenme boyutu **"35-40 KB"** olarak görünmekte. Ortalama bir blog sayfası üzerinden hesap edersek; günde *5000 sayfa gösterimi* aldığımda aylık olarak tüketeceğim bant genişliği yaklaşık **10-15 GB** civarında olacaktır. Gördüğünüz üzere amaca uygun bir kullanımda sınırlara yaklaşmanız bile söz konusu olmuyor! 
 
-## HUGO Nedir? 
-Aslına bakarsanız HUGO hakkında çok fazla şey yazmak mümkün... Ancak biz sadece yüzeysel olarak üzerinde duracağız. Hugo, oldukça hızlı ve modern yapıya sahip olan bir **statik web site oluşturucu** desek tanımı yapmış oluruz sanırım. Hugo, içeriklerinizi hazırlamanız için "Markdown" desteği sunuyor. Bu yüzden oldukça zengin içerikleri kolaylıkla hazırlayabiliyorsunuz. Aynı zamanda birçok alanda kullanabileceğiniz, gelişmiş temaları da içerisinde barındırıyor. *Bknz. [HUGO Themes](https://themes.gohugo.io/)*
 
-### Lokal HUGO Kurulumu
-HUGO ve Github Pages kullanarak kişisel bir blog oluşturmanın en pratik yolu, öncelikli olarak HUGO'yu lokalinize kurmaktan geçiyor. Ben Fedora sistemi üzerinden kurulum yapacağım. Eğer Windows kullanıyorsanız; [Install HUGO on Windows](https://gohugo.io/installation/windows/) dökümanından faydalanabilirsiniz. 
+ Örneğin; *"https://kullanaciadiniz.github.io/"* şeklinde veya *"https://kullaniciadiniz.github.io/depoismi/"* şeklinde bir alan adına sahip olabiliyorsunuz. Aynı zamanda ücretli bir şekilde satın aldığınız domain uzantılarını da GitHub Pages ile kullanarak web sayfalarınızı özel bir alan adıyla yayına alabiliyorsunuz. 
+
+ *Bknz. [HUGO Themes](https://themes.gohugo.io/)*
+
+ [Install HUGO on Windows](https://gohugo.io/installation/windows/) dökümanından faydalanabilirsiniz. 
 
 Öncelikli olarak HUGO'yu özelleştirmek ve Github depomuz ile arasındaki bağlantıyı kurabilmek için **"Git"** kurulumu yapmamız gerekiyor. Bunun için terminale şu komutu yazın;
 ```properties
@@ -90,7 +81,7 @@ Bu ayarlamayı yaptıktan sonra, başka hiç bir şey yapmadan HUGO bloğumuzun 
 hugo serve
 ```
 
-![Lokal Bağlantı Adresi GÖrseli](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCZISmECoQjICk4829oxOSBRtVHduMeI0MBYVXZusJf0W0ZKIcELugayeBN2vwghUA-CYNE99Q51073zgFWLb9fzXEravc5ubOR-2uQany7eusdj8GahmWbAC70Kb58hMZDVVIumzbIqiZ2_rBBG16QpvliGMCWStEq0o7V6Rz3zj9116qmUO-UoAy9RI/s811/Lokal%20Ba%C4%9Flant%C4%B1%20Adresimiz.png)
+![Lokal Bağlantı Adresi GÖrseli](https://private-user-images.githubusercontent.com/91957149/480462588-c1204dc7-50e1-463b-984d-36df922be288.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU3NzM3MjMsIm5iZiI6MTc1NTc3MzQyMywicGF0aCI6Ii85MTk1NzE0OS80ODA0NjI1ODgtYzEyMDRkYzctNTBlMS00NjNiLTk4NGQtMzZkZjkyMmJlMjg4LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODIxVDEwNTAyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRjNTYyOTgxZDVlNTFjNDhjNGI1NDI5NGZmOTg0YjVjYjY0NzM1N2EzZDJlZTc0ODAxYzUwZmVkNDZjN2YzNzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IaCjWfzIldSXlly8U7fMXJsKdNlG8KwhIt3MO6kLaw0)
 
 Her şey yolunda giderse gördüğünüz gibi bir lokal bağlantı adresi elde ediyoruz ve bu bağlantıyı tarayıcımızla açtığımızda HUGO blogumuz bizi karşılıyor. 
 
@@ -126,16 +117,3 @@ git commit -m "Create a Github Workflow HUGO.YAML"
 ## Burda tırnak içerisindeki kısma kendinize göre yaptığınız işlemler hakkındaki yorumu girebilirsiniz.
 git push -u origin main
 ```
-Bu aşamadan sonra deponun "Settings" kısmına gelmeniz ve sonrasında "Pages" sayfasına girmeniz gerekiyor. Açılan sayfada "Branc" kısmını **"main"** olarak ayarlayıp kaydetmelisiniz. Bu aşamadan sonra artık HUGO blogumuz deploy edilmeye başlamıştır. Aşamaları *"Actions"* kısmından takip edebilirsiniz. 
-
->ℹ️ Deployment tamamlandıktan sonra muhtemelen web sayfanızda "404" hatası alacaksınız. Bunun başlıca sebebi "baseURL" ayarını yapılandırmamış olmamız. Bunların hepsini karşılaştığımız sorunlarla çözmeye çalışıyorum ki daha anlaşılır olsun. Bu sorunu aşmak için lokal üzerinde config dosyamız olan "hugo.yaml" üzerinde "baseURL" kısmını ayarlamamız gerekiyor. 
-
-```properties
-baseURL: "https://examplesite.com/" // Buraya kendi github depo adresinizi yazmalısınız.
-```
-
-Bu ayarı yaptıktan sonra aktif olabilmesi için tekrardan git komutlarıyla depomuza göndermemiz gerekiyor. Sanırım bu komutları artık tekrar belirtmeme gerek yok. 😅
-
->ℹ️ Eğer web sitenizi özel bir domain üzerinden yayınlamak istiyorsanız, yine "Pages" sayfasında yer alan "Custom Domain" kısmındaki yapılandırmaları takip etmeniz gerekiyor. Burası çok ayrı bir kategori olduğu için yazı da detaylarına yer vermeyeceğim ancak video üzerinden nasıl yapılandırılması gerektiğine değindim.
-
-Tüm yapılandırmaları tamamladıktan sonra artık web siteniz yayınlanmış durumda olacaktır. HUGO ve kullandığınız temaların birçok eklentileri ve özellikleri olabilir. Bunları ilgili wiki sayfalarından inceleyebilirsiniz. Bu özelliklere göre kendi sayfalarınızı düzenleyebilir ve yayınlayabilirsiniz. 
