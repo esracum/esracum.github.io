@@ -1,6 +1,11 @@
 ---
 title: "Derin Öğrenme ile Perinefrik Yağ Kalınlığından MAP Skoru Hesaplama"
 date: 2024-11-30
+cover:
+    image: "/images/map_skoru.jpg" # Kapak resmi yolu
+    alt: "VTOL İHA Projesi"         # Alternatif metin
+    caption: "TEKNOFEST VTOL İHA Projesi" # Altta yazacak
+    relative: true
 # weight: 1
 # aliases: ["/first"]
 tags: ["GitHub Pages","HUGO"]
@@ -34,7 +39,8 @@ ShowCodeCopyButtons: true
 ## Proje Detayları 
 # Böbrek Segmentasyonu
 Böbrek segmentasyonu için *U-Net modeli* kullanılmıştır.
-![Böbrek Segmentasyonu](https://private-user-images.githubusercontent.com/91957149/480462588-c1204dc7-50e1-463b-984d-36df922be288.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU3NzM3MjMsIm5iZiI6MTc1NTc3MzQyMywicGF0aCI6Ii85MTk1NzE0OS80ODA0NjI1ODgtYzEyMDRkYzctNTBlMS00NjNiLTk4NGQtMzZkZjkyMmJlMjg4LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODIxVDEwNTAyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRjNTYyOTgxZDVlNTFjNDhjNGI1NDI5NGZmOTg0YjVjYjY0NzM1N2EzZDJlZTc0ODAxYzUwZmVkNDZjN2YzNzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IaCjWfzIldSXlly8U7fMXJsKdNlG8KwhIt3MO6kLaw0)
+> ![Böbrek Segmentasyonu](/images/map_skoru.jpg)
+
 
 Proje kapsamında, BT (Bilgisayarlı Tomografi ) görüntüleri üzerinde derin öğrenme ve görüntü işleme yöntemleri kullanılarak cerrahi planlama süreçlerini iyileştiren bir sistem geliştirilmiştir. Model eğitiminde kullanılan veri seti elle hazırlanmıştır. Stranding (yapışık yağ dokusu yoğunluğu) eşiğinin belirlenmesinde ise görüntü kontrastını artırmak için *CLAHE* yöntemi uygulanmış ve stranding hesabında otomatik eşikleme için *Otsu*, *Yen*, *Triangle* ve *Mean* gibi farklı yöntemler kıyaslanmıştır. Perinefrik yağ uzunluğunun tespitinde Z-skora dayalı fonksiyonlar kullanılarak bölgesel yoğunluk analizleri gerçekleştirilmiştir.
 

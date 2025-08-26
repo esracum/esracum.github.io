@@ -1,16 +1,17 @@
 ---
 title: "TEKNOFEST VTOL İHA Projesinde OpenCV Haar Cascade Yöntemiyle Orman Yangını Tespiti"
 date: 2024-05-19
+cover:
+    image: "/images/vtol_proje2.jpg" # Kapak resmi yolu
+    alt: "VTOL İHA Projesi"         # Alternatif metin
+    caption: "TEKNOFEST VTOL İHA Projesi" # Altta yazacak
+    relative: true
+
 # weight: 1
 # aliases: ["/first"]
 tags: ["GitHub Pages","HUGO"]
 categories: ["Open-Source"]
 author: "Esra Cüm"
-cover:
-    image: "https://private-user-images.githubusercontent.com/91957149/480462588-c1204dc7-50e1-463b-984d-36df922be288.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU3OTY1NjQsIm5iZiI6MTc1NTc5NjI2NCwicGF0aCI6Ii85MTk1NzE0OS80ODA0NjI1ODgtYzEyMDRkYzctNTBlMS00NjNiLTk4NGQtMzZkZjkyMmJlMjg4LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA4MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwODIxVDE3MTEwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTliMWFiZjZkYzhhMmUzZjBkZmRhODljZDgzZDE3YzJmYjIxMGJhNTg2MzMyMmJlMDMxODZjNmI5Y2UxYjYwZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zuLiN_gq3iBiwtNehgu-JHcEAflcrsfh9sTjclwgpuQ" # resmin yolu
-    alt: "VTOL İHA Projesi"
-    caption: "TEKNOFEST VTOL İHA Projesi"
-    relative: true
 
 showToc: true
 TocOpen: false
@@ -38,6 +39,8 @@ Python, Raspberry Pi, Pixhawk Cube Orange, OpenCV (Haar Cascade), Dronekit, Ardu
 
 ## Proje Detayları 
 # Proje Konusu
+![VTOL ARAÇ ](/images/vtol_proje2.jpg){ width=400px }
+
  Ormanlık alanlarda çıkan yangınları erken tespit etmek ve hızlı müdahaleyi sağlamak amacıyla sabit kanatlı dikey iniş-kalkış yapabilen otonom bir İHA geliştirilmiştir. Proje kapsamında görüntü işleme teknikleri ile yangın tespit edilen kritik bölgelerde uçaktan bırakılan yangın topu ile otonom müdahale sağlanmıştır. Böylece yangınlara hızlı müdahale edilerek zararların en aza indirilmesi hedefl enmiştir.
 
 # Projeden Elde Ettiğim Çıkarımlar
