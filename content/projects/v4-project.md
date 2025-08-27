@@ -1,5 +1,5 @@
 ---
-title: "TEKNOFEST VTOL İHA Projesinde OpenCV Haar Cascade Yöntemiyle Orman Yangını Tespiti"
+title: "U-Net Mimarisi İle LGG MRI Tümör Tespiti"
 date: 2024-05-19
 cover:
     image: "/images/vtol_proje2.jpg" # Kapak resmi yolu
