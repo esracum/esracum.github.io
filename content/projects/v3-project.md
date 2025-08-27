@@ -23,7 +23,6 @@ description: "TÜBİTAK destekli bu projede, derin öğrenme yöntemleri kullan�
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
 hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
