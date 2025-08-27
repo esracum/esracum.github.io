@@ -20,7 +20,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "TÜBİTAK destekli bu projede, derin öğrenme yöntemleri kullanılarak NST verilerinden fetüs sağlığının tahmin edilmesi amaçlanmıştır.
+description: "TÜBİTAK destekli bu projede, derin öğrenme yöntemleri kullanılarak NST verilerinden fetüs sağlığının tahmin edilmesi amaçlanmıştır."
 
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
