@@ -27,8 +27,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-ShowCodeCopyButtons: true
+
 ---
 
 ## Giriş 

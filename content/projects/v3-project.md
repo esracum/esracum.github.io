@@ -7,6 +7,8 @@ cover:
     caption: "TÜBİTAK Projesi" # Altta yazacak
     relative: true
 
+
+
 # weight: 1
 # aliases: ["/first"]
 tags: ["TÜBİTAK","Derin Öğrenme"]
@@ -29,8 +31,7 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
-ShowCodeCopyButtons: true
+
 ---
 
 ## Giriş 
