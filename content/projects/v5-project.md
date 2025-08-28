@@ -1,8 +1,8 @@
 ---
-title: "TEKNOFEST VTOL İHA Projesinde OpenCV Haar Cascade Yöntemiyle Orman Yangını Tespiti"
+title: "Fix Focus - Görüntü işleme ile öğrenci dikkat seviyesini analiz eden bir masaüstü uygulaması"
 date: 2024-05-19
 cover:
-    image: "/images/vtol_proje2.jpg" # Kapak resmi yolu
+    image: "/images/" # Kapak resmi yolu
     alt: "VTOL İHA Projesi"         # Alternatif metin
     caption: "TEKNOFEST VTOL İHA Projesi" # Altta yazacak
     relative: true

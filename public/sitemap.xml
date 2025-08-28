@@ -3,30 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/first-project/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/derin-%C3%B6%C4%9Frenme/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/derin-%C3%B6%C4%9Frenme/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/v1-project/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github-pages/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/open-source/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/g%C3%B6r%C3%BCnt%C3%BC-i%C5%9Fleme/</loc>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/second-project/</loc>
+    <loc>http://localhost:1313/projects/v5-project/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/github-pages/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/open-source/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/v8-project/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/v6-project/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/v2-project/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/t%C3%BCbitak/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/v3-project/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/v4-project/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/yapay-zeka/</loc>
+    <lastmod>2024-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/v7_project/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
   </url>
 </urlset>
