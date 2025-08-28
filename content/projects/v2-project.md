@@ -1,6 +1,6 @@
 ---
 title: "TEKNOFEST VTOL İHA Projesinde OpenCV Haar Cascade Yöntemiyle Orman Yangını Tespiti"
-date: 2024-05-19
+date: 2023-05-19
 cover:
     image: "/images/vtol_proje.jpg" # Kapak resmi yolu
     alt: "VTOL İHA Projesi"         # Alternatif metin

@@ -1,16 +1,18 @@
 ---
-title: "TEKNOFEST Havacılıkta Yapay Zeka Yarışması - Ulaşımda Yapay Zeka"
-date: 2024-05-19
-cover:
-    image: "/images/" # Kapak resmi yolu
-    alt: "VTOL İHA Projesi"         # Alternatif metin
-    caption: "TEKNOFEST VTOL İHA Projesi" # Altta yazacak
-    relative: true
+title: "Talk 2-2 – AI Destekli Sunum ve İletişim Koçluğu"
+date: 2025-03-19
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["GitHub Pages","HUGO"]
-categories: ["Open-Source"]
+
+cover:
+    image: "/images/slogan.jpg" # Kapak resmi yolu
+    alt: "Talk 2-2"         # Alternatif metin
+    caption: "Talk 2-2" # Altta yazacak
+    relative: true
+
+tags: ["Python","NLP"]
+categories: ["Derin Öğrenme"]
 author: "Esra Cüm"
 
 showToc: true
@@ -18,7 +20,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık."
+description: "Yapay Zeka ve Teknoloji Akademisi Hackathon kapsamında geliştirilmiş bir projedir."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -31,21 +33,31 @@ ShowRssButtonInSectionTermList: true
 
 ---
 
-## Giriş 
-## Kullanılan Teknolojiler ve Araçlar 
-Python, Raspberry Pi, Pixhawk Cube Orange, OpenCV (Haar Cascade), Dronekit, ArduPilot SITL, VTOL İHA, Otonom Uçuş Yazılımı, Mission Planner, Gazebo Simülasyon Ortamı
+## Proje Tanımı
 
-## Proje Detayları 
-# Proje Konusu
-![VTOL ARAÇ ](/images/vtol_proje2.jpg){ width=400px }
+Talk 2-2, Yapay Zeka ve Teknoloji Akademisi bünyesinde geliştirdiğimiz bir yapay zekâ destekli kişisel koç uygulamasıdır. Kullanıcıların sunum, mülakat veya günlük sohbet gibi durumlarda iletişim becerilerini geliştirmelerine yardımcı olur. Sloganımız: "Daha net, daha sen."
+![Uygulama Arayüzü ](/images/talk.jpg)
 
- Ormanlık alanlarda çıkan yangınları erken tespit etmek ve hızlı müdahaleyi sağlamak amacıyla sabit kanatlı dikey iniş-kalkış yapabilen otonom bir İHA geliştirilmiştir. Proje kapsamında görüntü işleme teknikleri ile yangın tespit edilen kritik bölgelerde uçaktan bırakılan yangın topu ile otonom müdahale sağlanmıştır. Böylece yangınlara hızlı müdahale edilerek zararların en aza indirilmesi hedefl enmiştir.
+## Proje Amacı
 
-# Projeden Elde Ettiğim Çıkarımlar
- Haar Cascade yöntemi, yangının farklı görünümleri ve çevresel koşullar (duman, düşük ışık, hareketli alevler) nedeniyle yüksek doğruluk ve tutarlılık sağlamada yetersiz kaldı. Ayrıca, ışık parlamaları ve yansımaların alev olarak algılanması nedeniyle yanlış pozitif tespitler oluştu. OpenCV kütüphanesi ile yapılan basit renk tespiti yöntemleri belirli durumlarda yeterli olsa da yangın alevi gibi daha karmaşık nesnelerin tespiti için CNN tabanlı derin öğrenme modelleri ile özel eğitimler gerçekleştirilmelidir. Ayrıca internet üzerinde bulunan genel veri setleri projenin özel ihtiyaçlarını karşılamakta yetersiz kaldığından projenin gereksinimlerine uygun özelleştirilmiş veri setleri kullanılması gerekmektedir.
+Kullanıcılara konuşmaları hakkında somut geri bildirimler sunarak daha akıcı, net ve özgüvenli bir ifade tarzı kazandırmak.
 
- # Projede Üstlendiğim Roller
- Model eğitimlerinin gerçekleştirilmesi, Raspberry Pi kullanılarak görüntü işleme ve otonom görev uçuşu yazılımının geliştirilmesi ile yer istasyonu tasarımının yapılması
+## Görev ve Sorumluluklar
 
+Developer olarak ekibin Agile prensipleri ile uyum içinde çalışmasını sağlamak
 
+Sprint hedeflerine odaklanmak
 
+NLP model seçimi ve entegrasyonu
+
+Teknik Detaylar
+
+Sesli kayıtların metne dönüştürülmesi: Google Speech-to-Text
+
+Metin analizi: GPT-4 API kullanılarak doldurucu kelimeler (“eee”, “şey” vb.), cümle yapısı ve anlatım netliği değerlendirilir
+
+Uygulanabilir öneriler: Kullanıcıya geliştirme önerileri sunan uçtan uca çalışan bir MVP (Minimum Viable Product) geliştirilmiştir
+
+## Sonuç
+
+Proje, kullanıcıların iletişim becerilerini artıran, pratik ve geri bildirim odaklı bir sistem sunmaktadır.

@@ -1,6 +1,6 @@
 ---
 title: "U-Net Mimarisi İle LGG MRI Tümör Tespiti"
-date: 2024-07-10
+date: 2023-07-10
 cover:
     image: "/images/lgg_mri.jpg" # Kapak resmi yolu
     alt: "LGG MRI"         # Alternatif metin
@@ -36,7 +36,7 @@ ShowRssButtonInSectionTermList: true
 
 ## Proje Detayları 
 ### Proje Konusu
-![VTOL ARAÇ ](/images/lgg_mri.jpg)
+![LGG MRI Segmentasyon ](/images/lgg_mri.jpg)
 
 Bu proje, düşük dereceli glioma (LGG) beyin tümörlerinin tespiti için U-Net mimarisi kullanılarak beyin MR görüntülerinin segmentasyonunu gerçekleştirmektedir. Model, tümörlerin konum ve sınırlarını belirlemek amacıyla derin öğrenme teknikleriyle eğitilmiştir.
 

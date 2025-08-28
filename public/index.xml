@@ -21,39 +21,18 @@
       <description>Bu proje, lisans bitirme projesi kapsamında Ondokuz Mayıs Üniversitesi Dr. Öğr. Üyesi Oğuz Emre Kural ve üroloji alanında rehberlik eden Dr. Emre Fatih Karadeli ile birlikte geliştirilmiştir. </description>
     </item>
     <item>
-      <title>U-Net Mimarisi İle LGG MRI Tümör Tespiti</title>
-      <link>http://localhost:1313/projects/v4-project/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/v4-project/</guid>
-      <description>Bu proje, düşük dereceli glioma (LGG) beyin tümörlerinin tespitine yönelik olarak geliştirilmiştir. </description>
-    </item>
-    <item>
       <title>Fix Focus - Görüntü işleme ile öğrenci dikkat seviyesini analiz eden bir masaüstü uygulaması</title>
       <link>http://localhost:1313/projects/v5-project/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/v5-project/</guid>
-      <description>ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık.</description>
+      <description>Yapay Zeka ve Teknoloji Akademisi Hackathon kapsamında geliştirilmiş bir projedir.</description>
     </item>
     <item>
-      <title>Talk 2-2</title>
-      <link>http://localhost:1313/projects/v8-project/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/v8-project/</guid>
-      <description>ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık.</description>
-    </item>
-    <item>
-      <title>TEKNOFEST Havacılıkta Yapay Zeka Yarışması - Ulaşımda Yapay Zeka</title>
+      <title>Talk 2-2 – AI Destekli Sunum ve İletişim Koçluğu</title>
       <link>http://localhost:1313/projects/v6-project/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/v6-project/</guid>
-      <description>ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık.</description>
-    </item>
-    <item>
-      <title>TEKNOFEST VTOL İHA Projesinde OpenCV Haar Cascade Yöntemiyle Orman Yangını Tespiti</title>
-      <link>http://localhost:1313/projects/v2-project/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/v2-project/</guid>
-      <description>ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık.</description>
+      <description>Yapay Zeka ve Teknoloji Akademisi Hackathon kapsamında geliştirilmiş bir projedir.</description>
     </item>
     <item>
       <title>Tübitak Destekli Derin Öğrenme Yöntemleri ile Nst Verileri İle Fetüs Sağlığı Tahmini</title>
@@ -63,10 +42,17 @@
       <description>TÜBİTAK destekli bu projede, derin öğrenme yöntemleri kullanılarak NST verilerinden fetüs sağlığının tahmin edilmesi amaçlanmıştır.</description>
     </item>
     <item>
-      <title>Yer Kontrol İstasyonu</title>
-      <link>http://localhost:1313/projects/v7_project/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/v7_project/</guid>
+      <title>U-Net Mimarisi İle LGG MRI Tümör Tespiti</title>
+      <link>http://localhost:1313/projects/v4-project/</link>
+      <pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/v4-project/</guid>
+      <description>Bu proje, düşük dereceli glioma (LGG) beyin tümörlerinin tespitine yönelik olarak geliştirilmiştir. </description>
+    </item>
+    <item>
+      <title>TEKNOFEST VTOL İHA Projesinde OpenCV Haar Cascade Yöntemiyle Orman Yangını Tespiti</title>
+      <link>http://localhost:1313/projects/v2-project/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/v2-project/</guid>
       <description>ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık.</description>
     </item>
   </channel>

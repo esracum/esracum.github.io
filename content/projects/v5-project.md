@@ -1,16 +1,11 @@
 ---
 title: "Fix Focus - Görüntü işleme ile öğrenci dikkat seviyesini analiz eden bir masaüstü uygulaması"
-date: 2024-05-19
-cover:
-    image: "/images/" # Kapak resmi yolu
-    alt: "VTOL İHA Projesi"         # Alternatif metin
-    caption: "TEKNOFEST VTOL İHA Projesi" # Altta yazacak
-    relative: true
+date: 2025-03-19
 
 # weight: 1
 # aliases: ["/first"]
-tags: ["GitHub Pages","HUGO"]
-categories: ["Open-Source"]
+tags: ["Python","Görüntü İşleme"]
+categories: ["Derin Öğrenme"]
 author: "Esra Cüm"
 
 showToc: true
@@ -18,7 +13,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "ÇELEBİ İHA Takımı olarak geliştirdiğimiz VTOL İHA projesiyle 2023’te TEKNOFEST Uluslararası İnsansız Hava Araçları Yarışması’nda fi nale kaldık ve performans ödülü kazandık."
+description: "Yapay Zeka ve Teknoloji Akademisi Hackathon kapsamında geliştirilmiş bir projedir."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -32,20 +27,30 @@ ShowRssButtonInSectionTermList: true
 ---
 
 ## Giriş 
-## Kullanılan Teknolojiler ve Araçlar 
-Python, Raspberry Pi, Pixhawk Cube Orange, OpenCV (Haar Cascade), Dronekit, ArduPilot SITL, VTOL İHA, Otonom Uçuş Yazılımı, Mission Planner, Gazebo Simülasyon Ortamı
+### Proje Tanımı
 
-## Proje Detayları 
-# Proje Konusu
-![VTOL ARAÇ ](/images/vtol_proje2.jpg){ width=400px }
+Bu proje, gerçek zamanlı kullanıcı dikkat analizi yapan bir dikkat takip sistemidir. Kullanıcıların dikkat durumunu tespit ederek uyarılar ve veriler sunar.
 
- Ormanlık alanlarda çıkan yangınları erken tespit etmek ve hızlı müdahaleyi sağlamak amacıyla sabit kanatlı dikey iniş-kalkış yapabilen otonom bir İHA geliştirilmiştir. Proje kapsamında görüntü işleme teknikleri ile yangın tespit edilen kritik bölgelerde uçaktan bırakılan yangın topu ile otonom müdahale sağlanmıştır. Böylece yangınlara hızlı müdahale edilerek zararların en aza indirilmesi hedefl enmiştir.
+### Kullanılan Teknolojiler
 
-# Projeden Elde Ettiğim Çıkarımlar
- Haar Cascade yöntemi, yangının farklı görünümleri ve çevresel koşullar (duman, düşük ışık, hareketli alevler) nedeniyle yüksek doğruluk ve tutarlılık sağlamada yetersiz kaldı. Ayrıca, ışık parlamaları ve yansımaların alev olarak algılanması nedeniyle yanlış pozitif tespitler oluştu. OpenCV kütüphanesi ile yapılan basit renk tespiti yöntemleri belirli durumlarda yeterli olsa da yangın alevi gibi daha karmaşık nesnelerin tespiti için CNN tabanlı derin öğrenme modelleri ile özel eğitimler gerçekleştirilmelidir. Ayrıca internet üzerinde bulunan genel veri setleri projenin özel ihtiyaçlarını karşılamakta yetersiz kaldığından projenin gereksinimlerine uygun özelleştirilmiş veri setleri kullanılması gerekmektedir.
+**PyQt5:** Grafik arayüz geliştirme
 
- # Projede Üstlendiğim Roller
- Model eğitimlerinin gerçekleştirilmesi, Raspberry Pi kullanılarak görüntü işleme ve otonom görev uçuşu yazılımının geliştirilmesi ile yer istasyonu tasarımının yapılması
+**MediaPipe Face Mesh:** Yüz hatları algılama ve kafa pozisyonu analizi
 
+### Çalışma Prensibi
 
+Kamera görüntüsü canlı olarak izlenir ve yüz hatları analiz edilir. Kullanıcının dikkatli mi yoksa dikkatsiz mi olduğu belirlenir. Uzun süre dikkatsiz kalındığında sistem sesli ve görsel uyarı verir.
 
+### Özellikler
+
+Dikkat skoru ve uyarı sayısı: Anlık olarak gösterilir
+
+Veri kaydı: Tüm veriler CSV formatında saklanır
+
+Grafiksel analiz: Zamanla dikkat seviyesini gösterir
+
+Kullanıcı kontrolü: Başlat/durdur butonları, tema seçimi ve oturum özet raporu
+
+### Kullanım Alanları
+
+Sistem, eğitim, uzaktan çalışma veya dikkat takibi gerektiren her ortamda pratik bir çözüm olarak kullanılabilir.
