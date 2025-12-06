@@ -75,7 +75,8 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hoşgeldiniz \U0001F44B"
-    Content: "Üzerinde çalıştığım projelere göz atın!"
+    Content: "Veri analitiği ve mühendislik disipliniyle iş süreçlerinde verimlilik sağlamayı hedefleyen bir Bilgisayar Mühendisiyim. 
+    Python, SQL, C++, Görüntü İşleme ve Veri Analizi Üzerinde çalıştığım projelere göz atın!"
 
   socialIcons:
     - name: x
