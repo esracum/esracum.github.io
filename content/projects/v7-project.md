@@ -1,6 +1,6 @@
 ---
 title: "Agentic AI Coding Agent"
-date: 2025-11-30
+date: 2025-12-19
 
 # weight: 1
 # aliases: ["/first"]

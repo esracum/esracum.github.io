@@ -1,6 +1,6 @@
 ---
 title: "NLP Tabanlı Akıllı Kitap Öneri Sistemi"
-date: 2025-12-19
+date: 2025-11-30
 
 # weight: 1
 # aliases: ["/first"]
