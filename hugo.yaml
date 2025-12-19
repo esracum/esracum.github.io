@@ -109,3 +109,13 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
+
+
+pygmentsUseClasses: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  
+  highlight:
+    noClasses: false
