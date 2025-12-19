@@ -6,7 +6,7 @@ date: 2025-12-19
 # aliases: ["/first"]
 
 cover:
-    image: "image: "/images/ai_book.jpg"" # Kapak görseli varsa yolu buraya yazın
+    image: "image: /images/ai_book.jpg" # Kapak görseli varsa yolu buraya yazın
     alt: "Book Recommendation System"
     caption: "NLP Powered Recommendation Engine"
     relative: true
