@@ -6,7 +6,7 @@ date: 2025-12-19
 # aliases: ["/first"]
 
 cover:
-    image: "image: /images/agentic_ai.jpg" # Kapak görseli varsa yolu buraya yazın (örn: /images/agent.jpg)
+    image: "/images/agentic_ai.jpg" # Kapak görseli varsa yolu buraya yazın (örn: /images/agent.jpg)
     alt: "Agentic AI"
     caption: "Autonomous Coding Agent"
     relative: true
