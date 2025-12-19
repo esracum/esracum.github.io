@@ -2,7 +2,7 @@
 title: "Tübitak Destekli Derin Öğrenme Yöntemleri ile Nst Verileri İle Fetüs Sağlığı Tahmini"
 date: 2024-05-19
 cover:
-    image: "/images/nst_project.jpg" # Kapak resmi yolu
+    image: "/images/nst_kapak.jpg" # Kapak resmi yolu
     alt: "TÜBİTAK Projesi"         # Alternatif metin
     caption: "TÜBİTAK Projesi" # Altta yazacak
     relative: true
@@ -29,7 +29,7 @@ hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 
 ---

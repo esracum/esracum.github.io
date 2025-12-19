@@ -2,7 +2,7 @@
 title: "Derin Öğrenme ile Perinefrik Yağ Kalınlığından MAP Skoru Hesaplama"
 date: 2025-06-20
 cover:
-    image: "/images/map_skoru.jpg" # Kapak resmi yolu
+    image: "/images/map_kapak.jpg" # Kapak resmi yolu
     alt: "Map Skor"         # Alternatif metin
     caption: "Map Skoru Hesaplama" # Altta yazacak
     relative: true
@@ -25,7 +25,7 @@ hideSummary: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
-ShowWordCount: true
+ShowWordCount: false
 ShowRssButtonInSectionTermList: true
 
 ---
