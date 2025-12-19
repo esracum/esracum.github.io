@@ -54,7 +54,7 @@ params:
 
   label:
     text: "Esra CÜM"
-    icon: icon: /static/images
+    icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
