@@ -82,12 +82,12 @@ params:
     "
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/esracum/"
+    - name: kaggle
+      url: "https://www.kaggle.com/esracum"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/esracum"
 
   analytics:
     google:

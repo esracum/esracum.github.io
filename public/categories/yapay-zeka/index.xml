@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yapay Zeka on Esra CÜM</title>
     <link>http://localhost:1313/categories/yapay-zeka/</link>
     <description>Recent content in Yapay Zeka on Esra CÜM</description>
-    <image>
-      <title>Esra CÜM</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/yapay-zeka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic AI Coding</title>
+      <link>http://localhost:1313/projects/v7-project/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/v7-project/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Tübitak Destekli Derin Öğrenme Yöntemleri ile Nst Verileri İle Fetüs Sağlığı Tahmini</title>
       <link>http://localhost:1313/projects/v3-project/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/v3-project/</guid>
-      <description>TÜBİTAK destekli bu projede, derin öğrenme yöntemleri kullanılarak NST verilerinden fetüs sağlığının tahmin edilmesi amaçlanmıştır.</description>
+      <description>&lt;h2 id=&#34;giriş&#34;&gt;Giriş&lt;/h2&gt;&#xA;&lt;h1 id=&#34;proje-konusu&#34;&gt;Proje Konusu&lt;/h1&gt;&#xA;&lt;h1 id=&#34;kullanılan-teknolojiler-ve-araçlar&#34;&gt;Kullanılan Teknolojiler ve Araçlar&lt;/h1&gt;&#xA;&lt;p&gt;Python, TensorFlow, Keras, NumPy, Matplotlib, Convolutional Neural Networks (CNN), GoogleNet, Transfer Learning&lt;/p&gt;&#xA;&lt;h1 id=&#34;projede-yer-aldığım-görevler&#34;&gt;Projede Yer Aldığım Görevler&lt;/h1&gt;&#xA;&lt;p&gt;Bu projede veri setinin oluşturulması, verilerin ayıklanması, CNN, GoogleNet ve Transfer Learning tabanlı derin öğrenme modellerinin yapılandırılması, hiper parametre optimizasyonu, model performansının değerlendirilmesi ve sonuçların raporlanması görevlerini üstlendim.&lt;/p&gt;&#xA;&lt;h2 id=&#34;proje-sonuçları&#34;&gt;Proje Sonuçları&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/nst_project.jpg&#34; alt=&#34;NST&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Karadeniz bölgesinden toplanan 550 NST verisi kullanılarak fetüs sağlığı üzerindeki anormallikler %80 doğrulukla tespit edilmiştir.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
