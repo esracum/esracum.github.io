@@ -6,7 +6,7 @@ tags: ["C++", "OpenCV", "Object Detection", "Computer Vision"]
 categories: ["Projects", "Computer Vision"]
 cover:
     image: "images/object_detect.jpg" 
-    alt: "Object Detection Demo"
+    
 ---
 
 ## Proje Hakkında
@@ -21,13 +21,12 @@ Bu proje, görüntü işleme süreçlerinde performansın kritik olduğu durumla
 Aşağıdaki videoda sistemin gerçek zamanlı çalışma performansını ve algılama hassasiyetini izleyebilirsiniz:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/watch?v=gc_lxAZrdpk&t=19s" 
+  <iframe src="https://www.youtube.com/embed/gc_lxAZrdpk?start=19" 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
     allowfullscreen 
-    title="Hezarfen GCS Demo">
+    title="Object Detect GCS Demo">
   </iframe>
 </div>
-
 ---
 
 
