@@ -68,6 +68,8 @@ params:
       url: "https://www.kaggle.com/esracum"
     - name: github
       url: "https://github.com/esracum"
+    - name: youtube
+      url: "https://www.youtube.com/@esracum"
     
 
   cover:
