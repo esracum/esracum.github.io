@@ -15,13 +15,12 @@ Bu proje, görüntü işleme süreçlerinde performansın kritik olduğu durumla
 
 Özellikle İHA sistemleri gibi kısıtlı donanım kaynaklarına sahip platformlarda nesne algılama süreçlerini optimize etmek amacıyla tasarlanmıştır.
 
+
 ## Proje Demosu
 
 Aşağıdaki videoda sistemin gerçek zamanlı çalışma performansını ve algılama hassasiyetini izleyebilirsiniz:
 
-{{< youtube [gc_lxAZrdpk] >}}
-
-
+[Proje Videosunu İzle](https://www.youtube.com/watch?v=gc_lxAZrdpk&t=19s)
 ---
 
 ## Teknik Detaylar ve Teknolojiler
@@ -37,6 +36,7 @@ Aşağıdaki videoda sistemin gerçek zamanlı çalışma performansını ve alg
 * **Çoklu Nesne Algılama:** Aynı anda birden fazla sınıfı (insan, araç vb.) tanıma yeteneği.
 * **Görüntü İşleme Hattı (Pipeline):** Ham görüntünün alınması, ön işlemesi (preprocessing) ve sonuçların görselleştirilmesi.
 
+---
 
 ## Kaynak Kodları
 
