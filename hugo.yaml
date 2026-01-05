@@ -88,17 +88,17 @@ params:
 # --- DÜZELTİLMİŞ MENÜ ---
 menu:
   main:
-    - identifier: categories
-      name: Kategoriler
-      url: /categories/
+    - name: "Hakkımda"
+      url: "/about/"
+      weight: 5
+    - name: "Kategoriler"
+      url: "/categories/"
       weight: 10
-    - identifier: tags
-      name: Etiketler
-      url: /tags/
+    - name: "Etiketler"
+      url: "/tags/"
       weight: 20
-    - identifier: archives
-      name: Arşiv
-      url: /archives/
+    - name: "Arşiv"
+      url: "/archives/"
       weight: 30
     
 
