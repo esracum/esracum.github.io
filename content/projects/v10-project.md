@@ -18,7 +18,7 @@ Bu proje, görüntü işleme süreçlerinde performansın kritik olduğu durumla
 
 ## Proje Demosu
 
-Aşağıdaki videoda sistemin gerçek zamanlı çalışma performansını ve algılama hassasiyetini izleyebilirsiniz:
+Aşağıdaki videoda sistemin gerçek zamanlı çalışma performansını izleyebilirsiniz:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/gc_lxAZrdpk?start=19" 
