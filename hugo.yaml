@@ -90,18 +90,21 @@ params:
 # --- DÜZELTİLMİŞ MENÜ ---
 menu:
   main:
+    - name: "Teknik Yazılar"
+      url: "/notes/"
+      weight: 5
     - name: "Hakkımda"
       url: "/about/"
-      weight: 5
+      weight: 15
     - name: "Kategoriler"
       url: "/categories/"
-      weight: 10
+      weight: 20
     - name: "Etiketler"
       url: "/tags/"
-      weight: 20
+      weight: 30
     - name: "Arşiv"
       url: "/archives/"
-      weight: 30
+      weight: 40
     
 
 pygmentsUseClasses: true
