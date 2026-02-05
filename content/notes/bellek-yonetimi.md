@@ -33,7 +33,7 @@ Bellek yönetimi, bir yazılımın hem performansını hem de kararlılığını
 
 | Özellik | **Stack (Yığın)** | **Heap (Öbek)** |
 
-| :--- | :--- | :--- |
+
 
 | **Yönetim** | Otomatik (Derleyici/OS) | Manuel (Yazılımcı/GC) |
 
